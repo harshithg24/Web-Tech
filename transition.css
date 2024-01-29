@@ -1,0 +1,57 @@
+.div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    transition: width 6s, height 7s, transform 3s;
+    transition-delay: 3s;
+}
+
+body{
+    background-color:aliceblue;
+    transform: translate(50px,50px);
+}
+
+.div:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+.div1{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: blue;
+    transition: width 3s;
+    transition-timing-function: ease;
+}
+
+.div1:hover{
+    width: 100px;
+}
+
+.div2{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: blue;
+    transition: width 3s;
+    transition-timing-function: ease-in;
+}
+
+.div2:hover{
+    width: 100px;
+}
+
+.div3{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: blue;
+    transition: width 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.div3:hover{
+    width: 100px;
+}

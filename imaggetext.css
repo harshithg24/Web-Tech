@@ -1,0 +1,35 @@
+.text{
+    position: relative;
+    color: brown;
+    font-size: 100px;
+    bottom: 100px;
+    right: 400px;
+    
+}
+
+.transform{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: rotate(50deg);
+}
+
+.translate{
+    transform: translate(90px,40px);
+    margin-top: 50px;
+}
+
+.scale{
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    transform: scale(2,4);
+}
+
+.scalex{
+    height: 50px;
+    width: 50px;
+    background-color:blanchedalmond;
+    transform: rotateX(30deg);
+}

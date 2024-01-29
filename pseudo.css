@@ -1,0 +1,30 @@
+.display{
+    display: inline;
+    background-color: aqua;
+
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+span{
+    background-color: chartreuse;
+    color: black;
+    font-size: large;
+    
+    
+}
+
+body{
+    transform: translate(30px,40px);
+}
+ul{
+    width: 40px;
+    background-color: aqua;
+
+}
+li{
+    background-color: blue;
+
+    text-decoration: none ;
+
+}
